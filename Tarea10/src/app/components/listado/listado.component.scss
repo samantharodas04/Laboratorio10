@@ -1,0 +1,35 @@
+#listado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.btn {
+  background-color: #55093d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.page-info {
+  padding-left: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+.title{
+  color: white;
+}

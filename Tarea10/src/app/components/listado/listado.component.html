@@ -1,0 +1,10 @@
+<h1 class="title" align = "center">Listado Rick And Morty - Tarea # 10</h1>
+
+<div id="listado">
+    @for(personaje of respuesta.results; track personaje.id) {
+        <app-personaje [personaje]="personaje" (click)="setCurrentPersonaje(personaje)"></app-personaje>
+    }
+</div>
+<p class="page-info">Página {{currentPage}} de {{lastPage}}</p>
+<button class="btn" (click)="backPage()">Previous</button>
+<button class="btn" (click)="nextPage()">Next</button>
